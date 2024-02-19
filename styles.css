@@ -102,6 +102,7 @@ button {
 button:hover {
     background-color: var(--Soft-Magenta);
     color: white;
+    transition: 0.3s ease-in-out;
 }
 .footer-icons {
     margin: 0 3rem 0 3rem;
@@ -112,12 +113,16 @@ button:hover {
     width: 30px;
     height: 30px;
     margin: 4px;
+    transition: 0.3s ease-in-out;
+    border: 2px solid white;
+    border-radius: 50%;
 
 }
 .footer-icons img:hover {
     background-color: var(--Soft-Magenta);
     cursor: pointer;
-    border-radius: 50%;
+    color: hsl(300, 69%, 71%);
+    border-color: hsl(300, 69%, 71%);
 }
 .attribution { 
     font-size: 11px;
